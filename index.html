@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanre Akinbo - Data Scientist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div class="header">
+                <div class="logo">
+                    <img src="./assets/lza_logo.png" alt="Lanre Akinbo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#proficiencies">Proficiencies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#other-platforms">Other Platforms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="header">
+                <div class="logo">
+                    <img src="./assets/lza_logo.png" alt="Lanre Akinbo">
+                </div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#proficiencies" onclick="toggleMenu()">Proficiencies</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#other-platforms" onclick="toggleMenu()">Other Platforms</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="profile">
+            <div class="section_pic_container">
+                <img src="./assets/profile.png" alt="Lanre Akinbo Profile Picture" />
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello, I'm</p>
+                <h1 class="title_1">Lanre Akinbo</h1>
+                <p class="section_text_p2">Data Scientist</p>
+                <div class="btn_container">
+                    <button class="btn_color" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section_text_p1">Get To Know More</p>
+            <h1 class="title_2">About Lanre Akinbo</h1>
+            <div class="text_container">
+                <p>I have a background in Mechanical Engineering and my journey into data science and machine learning is a captivating evolution. I've always been drawn to the world of problem-solving, and data provides the perfect canvas for my curious mind to explore and innovate.</p>
+                <p>What excites me most about this field is its constant evolution, dynamic challenges and the continuous learning it demands. I firmly believe in data's transformative power to reshape industries and drive innovation, and I'm here to be a part of that transformation.</p>
+                <p>Beyond data, I indulge in my love for sports, prioritize a healthy lifestyle and find joy in the rhythm of good music. These interests provide balance, fuel creativity and keep me energized for data's challenges.</p>
+            </div>
+        </section>
+        <section id="proficiencies">
+            <p class="section_text_p1">Here Are My</p>
+            <h1 class="title_2">Proficiencies</h1>
+            <div class="text_container">
+                <p>I can optimize your data for better results, informed decisions and cost savings. My proficiency in technical tools like SQL, Python, HTML, CSS, Power BI and Tableau, combined with strong soft skills, enables me to deliver impactful data solutions.</p>
+            </div>
+            <div class="article_container">
+                <article>
+                    <img src="./assets/data-analysis.png" alt="Data Analysis Icon" class="icon"/>
+                    <div>
+                        <h3>Data Analysis</h3>
+                        <p>Uncover hidden insights and patterns within your data, identifying trends, anomalies and opportunities for data-driven decision-making.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/data-analytics.png" alt="Data Analytics Icon" class="icon"/>
+                    <div>
+                        <h3>Data Analytics</h3>
+                        <p>Harness the power of data analytics, including predictive models and machine learning solutions, to forecast outcomes, optimize processes and gain competitive edges.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/data-visualization.png" alt="Data Visualization Icon" class="icon"/>
+                    <div>
+                        <h3>Data Visualization</h3>
+                        <p>Transform complex data into clear and compelling visual narratives. Create custom dashboards and reports for enhanced data communication and understanding.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/technical-writing.png" alt="Technical Writing Icon" class="icon"/>
+                    <div>
+                        <h3>Technical Writing</h3>
+                        <p>Translate intricate technical concepts into clear and concise documentation. From reports to comprehensive documentation, I ensure your data projects are well-documented and easily accessible.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/front-end-web-development.png" alt="Front End Web Development Icon" class="icon"/>
+                    <div>
+                        <h3>Front End Web Development</h3>
+                        <p>Craft visually appealing, user-friendly web interfaces that present data solutions in an accessible format. Additionally, I design websites tailored to cater to beginners and freelancers, amplifying your online presence and transforming your ideas into reality.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/collaboration.png" alt="Collaboration Icon" class="icon"/>
+                    <div>
+                        <h3>Collaboration</h3>
+                        <p>Collaborate seamlessly with your team to integrate data solutions into your business processes. Whether it's short-term projects or ongoing data-driven initiatives, I'm here to support your success.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="projects">
+            <p class="section_text_p1">Browse Through My</p>
+            <h1 class="title_2">Projects</h1>
+            <div class="details_container">
+                <div class="details_container color_container">
+                    <div class="subdetail_container">
+                        <img src="./assets/cyclistic.png" class="project_img"/>
+                        <h2 class="projects_subtitle">Cyclistic Bike-Share Analytics</h2>
+                        <p>A comprehensive analysis of Cyclistic Bike-Share data, featuring Exploratory Data Analysis (EDA), A/B Testing, SARIMA Time Series Forecasting and interactive Tableau dashboards to uncover user behavior, trends and marketing strategies for growth.</p> 
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn"
+                            onclick="location.href='https://github.com/'">View Project</button>
+                        </div>
+                    </div>
+                    <div class="subdetail_container">
+                        <img src="./assets/stock-price-web-app.jpg" class="project_img"/>
+                        <h2 class="projects_subtitle">Stock Price Prediction Web App</h2>
+                        <p>A deep dive into neural network modeling with LSTM, seamlessly integrated into the Streamlit framework for the development of a Stock Price Forecast Web App, designed for stock price prediction. This application additionally incorporates the use of stock information and technical indicators to facilitate data-driven analysis of investment trends.</p> 
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn"
+                            onclick="location.href='https://stock-price-forecast-app.streamlit.app/'">View Project</button>
+                        </div>
+                    </div>
+                    <div class="subdetail_container">
+                        <img src="./assets/mkbhd-youtube.jpg" class="project_img"/>
+                        <h2 class="projects_subtitle">Marques Brownlee YouTube Analysis</h2>
+                        <p>An in-depth exploration of MKBHD's YouTube journey, utilizing the YouTube API for conducting Exploratory Data Analysis (EDA), Natural Language Processing (NLP) and sentiment analysis through VADER and a Multinomial Naive Bayes Classifier. Provides insights and recommendations for content creators in the digital landscape.</p> 
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn"
+                            onclick="location.href='https://github.com/'">View Project</button>
+                        </div>
+                    </div>
+                    <div class="subdetail_container">
+                        <img src="./assets/clustering-analysis.jpg" class="project_img"/>
+                        <h2 class="projects_subtitle">Football Players Clustering Analysis</h2>
+                        <p>Exploration of football players' clustering analysis with KMeans using FIFA 23 data to discover insights and trends in the world of sports.</p> 
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn"
+                            onclick="location.href='https://github.com/'">View Project</button>
+                        </div>
+                    </div>
+                    <div class="subdetail_container">
+                        <img src="./assets/churn.png" class="project_img"/>
+                        <h2 class="projects_subtitle">Customer Churn Analytics</h2>
+                        <p>An endeavor in customer churn prediction through logistic regression, harnessing data science for enhanced customer retention.</p> 
+                        <div class="btn_container">
+                            <button class="btn btn_color project_btn"
+                            onclick="location.href='https://github.com/'">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </section>
+        <section id="other-platforms">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title_2">Other Platforms</h1>
+            <div class="details_container">
+                <div class="details_container color_container">
+                    <div class="sub-detail_container">
+                        <a href="https://github.com/lanre-akinbo" class="platform-link">
+                            <img src="./assets/github.jpg" class="project_img" />
+                            <h2 class="projects_subtitle">Github</h2>
+                            <p>All things code</p>
+                        </a>
+                    </div>
+                    <div class="sub-detail_container">
+                        <a href="https://medium.com/@olanreakinbo" class="platform-link">
+                            <img src="./assets/medium.png" class="project_img" />
+                            <h2 class="projects_subtitle">Medium</h2>
+                            <p>Catch my thoughts and insights on data</p>
+                        </a>
+                    </div>
+                    <div class="sub-detail_container">
+                        <a href="https://public.tableau.com/app/profile/lanre.akinbo3358/vizzes" class="platform-link">
+                            <img src="./assets/tableau.jpg" class="project_img" />
+                            <h2 class="projects_subtitle">Tableau</h2>
+                            <p>Check out my data vizzes</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section id="contact">
+            <h1 class="title_2">Contact Me</h1>
+            <div class="contact-info-container">
+                <div class="contact-info-upper-container">
+                    <div class="contact-info">
+                        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon" />
+                        <p><a href="mailto:olanreakinbo@gmail.com">olanreakinbo@gmail.com</a></p>
+                    </div>
+                    <div class="contact-info">
+                        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                        <p><a href="https://www.linkedin.com/in/lanre-akinbo/">LinkedIn</a></p>
+                    </div>
+                </div>
+                <div class="contact-text-container">
+                    <p>Olanrewaju Akinbo</p>
+                    <p>Location: Lagos, Nigeria or remote work</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &#169; 2023 Olanrewaju Akinbo. All Rights Reserved.</p>
+        </footer>
+    </main>
+   <script src="script.js"></script>    
+</body>
+</html>
