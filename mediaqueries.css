@@ -84,8 +84,8 @@
         text-align: center;
     }
     .section_pic_container {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         margin: 0 auto 2rem;
     }
     .section_text {
@@ -145,7 +145,7 @@
         padding: 1rem 0;
     }    
     footer p {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
     }
     .btn_container {
         margin-top: 1rem;
