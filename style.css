@@ -446,7 +446,7 @@ textarea {
 .info-item {
     display: flex;
     align-items: center;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.3rem;
 }
 
 .contact-icon {
