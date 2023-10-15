@@ -293,7 +293,7 @@ article {
 
 article .icon {
     cursor: pointer;
-    height: 100px;
+    height: 90px;
     margin-bottom: 1rem;
 }
 
@@ -376,60 +376,94 @@ a.platform-link {
 /* CONTACT SECTION */
 
 #contact {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    padding: 4rem 0;
     text-align: center;
 }
 
-.contact-info-upper-container {
+.contact-container {
     display: flex;
-    justify-content: center;
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 2rem;
-    padding: 1rem;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 2rem;
-    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.contact-card {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit-button {
+    background: linear-gradient(90deg, #6091cc, #ef8ebf);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #4f7ebf;
+    transform: scale(1.05);
 }
 
 .contact-info {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin: 1rem;
+    text-align: left;
+    flex: 1;
+    max-width: 400px;
 }
 
-.contact-info:hover {
-    transform: translateY(-5px);
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.6rem;
 }
 
 .contact-icon {
-    cursor: default;
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
     margin-right: 1rem;
 }
 
-.contact-info p {
-    font-size: larger;
+.contact-info h2 {
+    font-size: 1.5rem;
 }
 
-.contact-text-container {
-    text-align: center;
-}
-
-.contact-text-container p {
-    font-size: larger;
-    margin: 0.5rem 0;
-}
 
 /* FOOTER SECTION */
 
 footer {
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
 }
 
