@@ -65,7 +65,7 @@
         max-width: 35px;
     }
     #profile {
-        height:72vh;
+        height:70vh;
         margin-bottom: 0;
     }
     .about-containers, .contact-info-upper-container,
@@ -75,7 +75,7 @@
     .contact-info-container {
         margin:0
     }
-    article, .contact-info-container p, .nav-links li a, .menu-links a, .sub-detail_container, .subdetail_container {
+    article, .contact-info-container p, .nav-links li a, .menu-links a, .sub-detail_container, .subdetail_container, .info-item p {
         font-size:0.9rem;
     }
     .nav-links {
@@ -126,9 +126,9 @@
         max-width: 100%;
     }
     article .icon {
-        height: 75px;
+        height: 70px;
     }
-    article h3, .projects_subtitle {
+    article h3, .projects_subtitle, .contact-info h2 {
         font-size: 1rem;
     }
     .details_container {
@@ -169,5 +169,44 @@
     }
     .contact-info {
         gap: 0rem;
+    }
+    article p {
+        text-align: center;
+    }
+    .text_container p {
+        text-align: center;
+    }
+    .contact-container {
+        flex-direction: column;
+        padding-bottom: 0rem;
+    }
+    .contact-card,
+    .contact-info {
+        max-width: 100%;
+        text-align: center;
+    }
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+    }
+    .submit-button {
+        width: 100%;
+        font-size: 0.75rem;
+        margin-top: 1rem;
+    }
+    .info-item {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0.25rem;   
+    }
+    label {
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        margin-top: 40px;
     }
 }
