@@ -72,10 +72,7 @@
     .btn-container {
         flex-wrap: wrap;
     }
-    .contact-info-container {
-        margin:0
-    }
-    article, .contact-info-container p, .nav-links li a, .menu-links a, .sub-detail_container, .subdetail_container, .info-item p {
+    article, .nav-links li a, .menu-links a, .sub-detail_container, .subdetail_container, .info-item p {
         font-size:0.9rem;
     }
     .nav-links {
@@ -134,13 +131,6 @@
     .details_container {
         gap: 2rem;
     }
-    .contact-info {
-        margin: 0 0;
-    }
-    .contact-icon {
-        width: 20px;
-        height: 20px;
-    }
     footer {
         padding: 1rem 0;
     }    
@@ -163,12 +153,6 @@
     }
     .sub-detail_container {
         max-width: 250px;
-    }
-    .contact-info-upper-container {
-        gap: 1rem;
-    }
-    .contact-info {
-        gap: 0rem;
     }
     article p {
         text-align: center;
