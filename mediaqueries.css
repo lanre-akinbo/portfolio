@@ -167,9 +167,12 @@
         flex-direction: column;
         padding-bottom: 0rem;
     }
-    .contact-card,
+    .contact-card {
+        max-width: 100%;
+    }
     .contact-info {
         max-width: 100%;
+        text-align: center;
     }
     .form-group input,
     .form-group textarea {
