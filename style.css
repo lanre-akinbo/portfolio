@@ -459,6 +459,15 @@ textarea {
     font-size: 1.5rem;
 }
 
+.contact-info a {
+    color: #555;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: rgb(96, 145, 204);
+}
+
 
 /* FOOTER SECTION */
 
