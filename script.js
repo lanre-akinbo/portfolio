@@ -11,7 +11,15 @@ function sendMail() {
         email : document.getElementById("email").value,
         message : document.getElementById("message").value
     }
-    emailjs.send("service_20pigze", "template_jm79tde", params).then(function(res) {
-        alert("Success!" + res.status)
+
+    emailjs
+    .send("service_20pigze", "template_jm79tde", params)
+    .then((res) => {
+       document.getElementById("name").value = "";
+       document.getElementById("email").value = "";
+       document.getElementById("message").value = "";
+       console.log(res);
+       alert("Message sent successfully!");
     })
+    .catch((err) => console.log(err));
 }
