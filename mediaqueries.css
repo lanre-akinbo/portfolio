@@ -75,7 +75,7 @@
     .menu-links a, .nav-links li a {
         font-size: 1rem;
     }
-    article, .sub-detail_container, .subdetail_container, .info-item p {
+    article, .sub-detail_container, .subdetail_container, .info-item p, .contact-info a {
         font-size:0.9rem;
     }
     .nav-links {
