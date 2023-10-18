@@ -73,7 +73,7 @@
         flex-wrap: wrap;
     }
     .menu-links a, .nav-links li a {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     article, .sub-detail_container, .subdetail_container, .info-item p, .contact-info a {
         font-size:0.9rem;
