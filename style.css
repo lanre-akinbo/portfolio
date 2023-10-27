@@ -181,13 +181,13 @@ section {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    height: 80vh;
+    height: 85vh;
 }
 
 .section_pic_container {
     display: flex;
-    height: 480px;
-    width: 480px;
+    height: 475px;
+    width: 475px;
     margin: auto 0;
 }
 
