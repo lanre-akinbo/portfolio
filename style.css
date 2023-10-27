@@ -186,8 +186,8 @@ section {
 
 .section_pic_container {
     display: flex;
-    height: 490px;
-    width: 490px;
+    height: 480px;
+    width: 480px;
     margin: auto 0;
 }
 
