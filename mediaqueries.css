@@ -116,8 +116,11 @@
     #proficiencies {
         margin-top:5rem;
     }
-    #projects, #contact {
+    #projects {
         padding: 5rem 0;
+    }
+    #contact {
+        padding: 2.5rem 0;
     }
     .article_container {
         gap: 0;
