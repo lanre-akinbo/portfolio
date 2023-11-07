@@ -73,10 +73,10 @@
         flex-wrap: wrap;
     }
     .menu-links a, .nav-links li a {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
     }
     article, .sub-detail_container, .subdetail_container, .info-item p, .contact-info a {
-        font-size:0.9rem;
+        font-size:0.95rem;
     }
     .nav-links {
         flex-direction: column;
@@ -92,7 +92,7 @@
         width: 100%;
     }
     .section_text_p1 {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
     .section_text_p2 {
         font-size: 1rem;
@@ -107,7 +107,7 @@
         text-align: justify;
     }
     .text_container p {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
         line-height: 1.4;
     }
     #about, #proficiencies, #other-platforms {
@@ -138,7 +138,7 @@
         padding: 1rem 0;
     }    
     footer p {
-        font-size: 0.65rem;
+        font-size: 0.75rem;
     }
     .btn_container {
         margin-top: 1rem;
@@ -146,7 +146,7 @@
     }
     .btn_color {
         padding: 0.8rem 1rem;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
     .btn_color:hover {
         transform: scale(1);
@@ -180,7 +180,7 @@
     }
     .submit-button {
         width: 100%;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         margin-top: 1rem;
     }
     .info-item {
