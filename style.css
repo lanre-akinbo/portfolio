@@ -474,10 +474,12 @@ textarea {
 footer {
     padding: 2rem 0;
     text-align: center;
+    background-color: black;
 }
 
 footer p {
     margin: 0;
+    color: white;
 }
 
 footer p::before {
