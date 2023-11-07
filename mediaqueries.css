@@ -65,7 +65,7 @@
         max-width: 35px;
     }
     #profile {
-        height:70vh;
+        height:72vh;
         margin-bottom: 0;
     }
     .about-containers, .contact-info-upper-container,
@@ -73,10 +73,10 @@
         flex-wrap: wrap;
     }
     .menu-links a, .nav-links li a {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
     article, .sub-detail_container, .subdetail_container, .info-item p, .contact-info a {
-        font-size:0.95rem;
+        font-size:0.9rem;
     }
     .nav-links {
         flex-direction: column;
@@ -92,7 +92,7 @@
         width: 100%;
     }
     .section_text_p1 {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
     }
     .section_text_p2 {
         font-size: 1rem;
@@ -107,7 +107,7 @@
         text-align: justify;
     }
     .text_container p {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         line-height: 1.4;
     }
     #about, #proficiencies, #other-platforms {
@@ -138,7 +138,7 @@
         padding: 1rem 0;
     }    
     footer p {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
     .btn_container {
         margin-top: 1rem;
@@ -189,7 +189,7 @@
         margin-bottom: 0.25rem;   
     }
     label {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         margin-bottom: 0.25rem;
     }
 }
