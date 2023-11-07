@@ -468,18 +468,16 @@ textarea {
     color: rgb(96, 145, 204);
 }
 
-
 /* FOOTER SECTION */
 
 footer {
     padding: 2rem 0;
     text-align: center;
-    background-color: black;
+    background-color: #F9F9F7;
 }
 
 footer p {
     margin: 0;
-    color: white;
 }
 
 footer p::before {
